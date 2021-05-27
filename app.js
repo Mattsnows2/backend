@@ -8,7 +8,7 @@ var client = new elasticsearch.Client({
 });
 
 const app = express();
-mongoose.connect('mongodb+srv://mattsnows:test@cluster0.cdl7e.mongodb.net/?retryWrites=true&w=majority',
+mongoose.connect('connection à la bdd mongodb',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
